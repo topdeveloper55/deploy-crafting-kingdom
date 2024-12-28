@@ -65,6 +65,7 @@ const Login = () => {
         }
       } else {
         alert("Wallet is not an Smart Wallet");
+        router.push("/");   // change part
       }
     } catch (error) {
       console.log(error);
